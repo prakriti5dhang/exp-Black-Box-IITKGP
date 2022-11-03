@@ -96,5 +96,12 @@ n is an empirical constant between 0.5 and 2.
         <button id="button" onclick="answer();"></button>
 
      
-
-        <script  src="/simulation/js/random.js"></script>
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>  
+       <script>
+            function answer(){
+            var in1=parseInt(document.getElementById("inp1").value);
+            var in2=parseInt(document.getElementById("inp2").value);
+            var sumt=in1+in2;
+            document.getElementById("sum").innerHTML=sumt;
+            }
+        </script>
