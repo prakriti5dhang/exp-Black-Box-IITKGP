@@ -90,7 +90,7 @@ n is an empirical constant between 0.5 and 2.
 </div>
 
 
-<input type="number" id="inp1"/>
+<!-- <input type="number" id="inp1"/>
         <input type="number" id="inp2"/>
         <p id="sum">Total</p>
         <button id="button" onclick="answer();">Calculate</button>
@@ -104,4 +104,4 @@ n is an empirical constant between 0.5 and 2.
             var sumt=in1+in2;
             document.getElementById("sum").innerHTML=sumt;
             }
-        </script\>
+        </script\> -->
