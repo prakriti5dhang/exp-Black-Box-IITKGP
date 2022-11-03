@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Electronics</title>
+
+    </head>
+
+    <body>
+        <div id="experiment">
+            <!-- The Experiment Document Container-->
+            <!-- The lab Header contains the logo and the name of the lab,
+      usually displayed on the top of the page-->
+
+            <header class="default" id="experiment-header">
+                <div class="logo" id="experiment-header-logo">
+                    <!-- Enclose the logo image of your lab or write it in 
+              text-->
+                    <img src="../images/logo.jpg"></div>
+
+                <div class="heading" id="experiment-header-heading">
+                    <!-- Write the name of your lab and link it to the home 
+          page of your lab (h1 tag is preferred while writing your 
+          lab name)-->
+                    <a href="../index.html">Basic Electronics Lab</a>
+                </div><!-- Add any additional element you want to add to the lab 
+        header, For example : Help (Enclosing them with suitable 
+        div is recommended)-->
+            </header><!-- The lab article is the main content area where all the 
+      experiment content sits-->
+
+            <article id="experiment-article">
+                <!-- The lab article has an header, optional navigational 
+        menu, number of sections, an optional sidebar and a closing 
+        footer-->
+
+                <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+                <header class="heading" id="experiment-article-heading">
+                    Black Box
+                </header><!-- Navigation menu is useful to organize the view of 
+          multiple sections inside the article-->
+
+                <nav class="default" id="experiment-article-navigation">
+                    <ul id="experiment-article-navigation-menu">
+                        <!-- The menu can be dynamically generated to contain 
+              the headings of your sections or instead write the 
+              menu items of your choice individually enclosedu in 
+              &lt;li&gt; tag as shown below-->
+                    </ul>
+                </nav><!-- All the sections of your lab or experiment can be 
+          enclosed together with a div element as shown below-->
+
+                <div id="experiment-article-sections">
+                    <!-- First section of the article-->
+                    <!-----------------------------------SECTION - 1---------------------------------------------------------------------------------> 
+                    <!---   <section id="experiment-article-section-1">
+                           <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab. 
+                    <img src="../images/objective.jpg"></div>
+
+                <div class="heading" id="experiment-article-section-1-heading">
+                    Objective
+                </div>
+
+                <div class="content" id="experiment-article-section-1-content" > 
+                    To investigate the relationship between voltage and current for a
+                    resistor in order to verify Ohm’s Law.The experiment also uses Ohm’s Law to demonstrate the relationship between voltage, current and resistance in both series and parallel configurations.
+                    To determine the equivalent resistance of resistors arranged in various ways.
+
+                    <!-- <p>
+                         <object width="900" height="500" data="./content/C012/T003/viewer.swf" type="application/x-shockwave-flash">
+                             <param name="src" value="./content/C012/T003/viewer.swf"/>
+                         </object>
+                     </p>                          
+                </div>
+            </section>-->
+
+
+                    <!-----------------------------------SECTION - 2---------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-2">
+                        <div class="icon" id="experiment-article-section-2-icon">
+                            <!-- Enclose the icon image of your lab -->
+                            <img src="../images/theory.jpg"></div>
+                        <!-- The heading for the section can be enclosed in a   div tag. -->
+
+                        <div class="heading" id="experiment-article-section-2-heading">
+                            Theory
+                        </div><!-- Write the section content inside a paragraph element, You can also include images with &lt;img&gt; tag -->
+
+                        <div class="content" id="experiment-article-section-2-content">    
+
+                            <b>Objectives</b><br><br>
+                            At the end of the experiment, the student would be able to
+                            <ol>
+                                <li>Identify the Unknown device</li>                                
+                                <li>Measure and confirm Unknown device</li>
+                            </ol><br>
+                            <b>Ohm's Law</b><br><br>
+                            <ol>
+                                <li>The law states that the current through a conductor between two points is directly proportional to the voltage across the two points.
+                                    Such a conductor is characterized by its ‘Resistance’ – R measured in Ohms.</li>
+                                <li> \(V=I \times R\) </li>
+                                <ul>
+                                    <li>V is the Voltage in Volts across the conductor.</li>
+                                    <li>I is the current in Amperes through the conductor.</li>
+                                    <li>Voltage(V) is directly proportional to current i.e \(V=I \times R\). </li>
+                                    <li>Resistance(R) in inversely proportional to current(I) i.e \(I=\frac{V}{R}\)</li>
+
+                                </ul>
+                            </ol>
+                            
+
+                            <!--b>Explaination of Ohm's Law </b><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/ohmt2.png" style="width:250px;height:250px">
+
+                                </p>
+                                Figure 2: Current through resistor
+                            </div><br><br-->
+                            
+
+                           <b>Forward and reverse biased characteristics of a Silicon diode</b><br><br>
+                            <p style="text-align:justify">  <b>In forward biasing</b>, the positive
+                                terminal of battery is connected to the P side and the negative terminal of battery is connected to the N side of the diode.
+                                Diode will conduct in forward biasing because the forward biasing will decrease the
+                                depletion region width and overcome the barrier potential. In order to conduct, the
+                                forward biasing voltage should be greater than the barrier potential. During forward
+                                biasing the diode acts like a closed switch with a potential drop of nearly 0.6 V
+                                across it for a silicon diode.
+                                The forward and reverse bias characteristics of a silicon diode. From
+                                the graph, you may notice that the diode starts conducting when the forward bias
+                                voltage exceeds around 0.6 volts (for Si diode). This voltage is called cut-in voltage.</p>
+                            <br>
+                            <!--div align="center">
+                                <p>
+                                    <img src="image/frwpltsi.png" style="width:750px ; height:250px">
+                                </p><br>
+                                Figurer:5
+                            </div-->
+                          
+                            <p style="text-align:justify"> <b>In reverse biasing</b>, the positive terminal 
+                                of battery is connected  to the N side and the negative terminal of battery is connected to the P side of a diode. In
+                                reverse biasing, the diode does not conduct electricity, since reverse biasing leads to
+                                an increase in the depletion region width; hence current carrier charges find it more
+                                difficult to overcome the barrier potential. The diode will act like an open switch and
+                                there is no current flow.</p><br>
+
+<b> Diode Equation</b><br><br>
+                            In the forward-biased and reversed-biased regions, the current (\(I_f\)), and the
+                            voltage (\(V_f\)), of a semiconductor diode are related by the diode equation:<br><br>
+                            $$I_f=I_s \times (exp^\frac{V_f}{n \times{V_T}}-1)$$<br><br>
+                            where,<br>
+
+                            \(I_s\) is reverse saturation current or leakage current,<br>
+
+                            \(I_f\) is current through the diode(forward current),<br>
+                            \(V_f\) is potential difference across the diode terminals(forward voltage)<br>
+                            \(V_T\) is thermal voltage, given by<br>
+                            $$V_T=\frac{k \times T}{q}$$
+                            <br><br>
+
+                            and<br>
+                            k is Boltzmann’s constant = 1.38x10<sup>−23</sup> J /&deg;Kelvin,<br>
+                            q is the electronic charge = 1.6x10<sup>−19</sup>  joules/volt(Coulombs),<br>
+                            T is the absolute temperature in &deg;Kelvin(&deg;K = 273 + temperature in &deg;C),<br>
+                            At room temperature (25 &deg;C), the thermal voltage is about 25.7 mV,<br>
+                            n is an empirical constant between 0.5 and 2<br><br>
+
+                            
+                            
+
+                           
+
+
+                            <!--   <b>Observe the 2 ways to Measure Voltage and Current</b><br><br>
+                               Way 1:
+                               <div align="center">
+                                   <p>
+                                       <img src="image/ohm1.png" style="width:300px;height:300px">
+   
+                                   </p><br>
+                                   Figure:1
+                               </div><br><br>
+                               Way 2:
+                               <div align="center">
+                                   <p>
+                                       <img src="image/ohm2.png" style="width:300px;height:300px">
+   
+                                   </p><br>
+                                   Figure:2
+                               </div><br><br>-->
+                            <!--  Slides:&nbsp;<a href="./content/slidethy.html">Ohm's Law</a><br><br>
+                              Slides:&nbsp;<a href="./content/ohms.pptx">Ohm's Law</a><br><br>
+                              pdf:&nbsp;<a href="./content/ohmslaw.pdf">Ohm's Law</a>-->
+                            <!--  <p>
+                                  <object width="900" height="500" data="./content/C004/T001/viewer.swf" type="application/x-shockwave-flash">
+                                      <param name="src" value="./content/C004/T001/viewer.swf"/>
+                                  </object>
+                              </p>   -->                        
+                        </div>
+                    </section><!-- Second section of the article-->
+
+                    <!-----------------------------------SECTION - 3--------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-3">
+                        <div class="icon" id="experiment-article-section-3-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/procedure.jpg"></div>
+
+                        <div class="heading" id="experiment-article-section-3-heading">
+                            Procedure
+                        </div>
+
+                        <div class="content" id="experiment-article-section-3-content">      
+
+                            <b>Experiment</b><br><br>
+                            <ol type="I">
+                                <li>Let us go through the experiment of confirming and identifying the Unknown Device.</li>                         
+                                <ol>
+                                    <li>Set DC voltage(0-30 V). </li>
+                                    <li>Set the Resistance Value(1 Kohm - 100 Kohm) .</li>                                   
+                                    <li>Voltmeter is placed parallel to resistor and ammeter series with resistor.</li>
+                                    <li>Now note the Voltmeter and Ammeter reading for DC voltage.  </li>
+                                    <li>Increase the DC voltage by 2 factor and note Voltmeter and Ammeter Readings. Keep resistance value constant</li>
+                                    <li>Plot the V-I graph.</li>
+                                    <li>Repeat step 2 to 6 for another set of resistance value. </li>
+                                    <li>V versus I graph is  a straight line.</li>
+                                    <li>Therefore from the graph we see that the resistance do adhere to Ohm’s law. Thus resistance is said to be an Ohmic device.</li>
+                                    <div align="center">
+                                        <p>
+                                            <img src="image/ohmsunk_pr.png" style="width:350px;height:300px">
+                                        </p><br>
+                                        Figure:1
+                                    </div><br><br>
+                                </ol>
+                                
+                            
+
+                                <li> Let us go through the experiment of confirming and identifying the Unknown Device.</li> 
+                                <ol>
+                                    <li>Set DC voltage to 0.2 V .</li>
+                                    <li>Use the resistor of 1K ohms.</li>
+                                    <li>An Unknown device is connected in series with resistor.</li> 
+                                    <li>Now  vary the voltage upto 12V and note the Voltmeter and Ammeter reading for particular DC voltage .  </li>
+                                    <li>Take 15 readings for better graph. </li>
+                                    <li>Take the readings and note Voltmeter reading across the unknown device and Ammeter reading.</li>
+                                    <li>Plot the V-I graph  and observe the change.</li>
+                                    <li> From the graph  if we see that the unknown device starts conducting when the forward bias voltage exceeds around 0.6 volts (for Si diode). Thus the device would be a Diode.</li>
+                                    <li>If we see that a straight curve is obtain then, it would be an ohmic device.</li>
+                                    <div align="center">
+                                        <p>
+                                            <img src="image/ohmsunk_pr.png" style="width:350px;height:300px">
+                                        </p><br>
+                                        Figure:5
+                                    </div><br><br>    
+                                </ol>
+                                <li>Confirming the identified Unknown Device by reversing the device.</li>
+                                <ol>
+                                    <li>Set DC voltage to 0.2 V .</li>
+                                    <li>Use the resistor of 1K ohms </li>
+                                    <li>Voltmeter is placed parallel to unknown device and ammeter series with resistor.</li>                 
+                                    <li>Now  vary the voltage upto 6V and note the Voltmeter and Ammeter reading for DC voltage .  </li>
+                                    <li>Take 15 readings for better graph. </li>
+                                    <li>Take the readings and note Voltmeter reading across unknown device and Ammeter reading.</li>
+                                    <li>Plot the V-I graph  and observe the change.</li>
+                                    <div align="center">
+                                        <p>
+                                            <img src="image/ohmsunkr_pr.png" style="width:350px;height:300px">
+                                        </p><br>
+                                        Figure:6
+                                    </div><br><br>
+                                </ol>
+								<li>Confirming the identified Unknown Device by unknown the device.</li>
+                                
+								 <ol >
+                            <li>Intially, set input voltage to 5 V .</li>
+                            <li>Use the resistor of 1K ohms.</li>
+                            <li>An Unknown device is connected in series with resistor.</li> 
+                            <li>Now  vary the frequecny  and  note the Voltmeter and Ammeter reading for  AC test.  </li>                         
+                            <li>Take the readings and note Voltmeter reading across the unknown device and Ammeter reading.</li>
+                            <li>Plot the  graph  and observe the change.</li>
+                            <li> From the graph  if we see that the unknown device starts conducting when the forward bias voltage exceeds around 0.6 volts (for Si diode). Thus the device would be a Diode.</li>
+                            <li>If we see that a straight curve is obtain then, it would be an ohmic device.</li>
+                          <li>If we see a charging upto input voltage, then it would be capacitance.</li>
+						  <div align="center">
+                                        <p>
+                                            <img src="image/ohmsunkr_pr.png" style="width:350px;height:300px">
+                                        </p><br>
+                                        Figure:7
+                                    </div><br><br>
+                        </ol> 
+                            </ol>
+                            <!--     <b>Experiment </b><br><br>
+                                                            <ol>
+                                                                <li>Let us go through the experiment of confirming Ohms Law.</li>
+                                                                <li>Drag and Drop – DC source, Ammeter, Voltmeter, Resistor of 20.5 KOhms, Ground and setup the circuit as shown below.</li>
+                                
+                                
+                                                                <div align="center">
+                                                                    <p>
+                                                                        <img src="image/ohmpr1.png" style="width:300px;height:300px">
+                                                                    </p><br>
+                                                                    Figure:1
+                                                                </div><br><br>
+                                                                <li>Set the DC source up at 20V and note the Voltmeter and Ammeter Readings</li>
+                                                                <li>Take 4 more readings at 22V, 24V, 26V and 28V.</li>
+                                
+                                                                <div align="center">
+                                                                    <p>
+                                                                        <img src="image/ohmpr2.png" style="width:500px;height:300px">
+                                                                    </p><br>
+                                                                    Figure:2
+                                                                </div><br><br>
+                                
+                                                            </ol><br><br>
+                                                            <b>Results</b><br><br>
+                                                            <p>Plot graph between V and I values. Notice that the as the value of V increases, I increases in the same proportion. The slope of the plot is the Resistance and is given by V/I = 20000 Ohms. Thus Ohms Law is confirmed.</p>
+                                                            <br>
+                                                            <div align="center">
+                                                                <p>
+                                                                    <img src="image/ohmpr3.png" style="width:300px;height:300px">
+                                                                </p><br>
+                                                                Figure:3
+                                                            </div><br><br>
+                                                            <b>Observe the 2 ways to Measure Voltage and Current</b><br><br>
+                                                            Way 1:
+                                                            <div align="center">
+                                                                <p>
+                                                                    <img src="image/ohmpr4.png" style="width:300px;height:300px">
+                                
+                                                                </p><br>
+                                                                Figure:4
+                                                            </div><br><br>
+                                                            Way 2:
+                                                            <div align="center">
+                                                                <p>
+                                                                    <img src="image/ohmpr5.png" style="width:300px;height:300px">
+                                
+                                                                </p><br>
+                                                                Figure:5
+                                                            </div><br><br>
+                                                            <b>Circuit I</b><br><br>
+                                                            <ol>
+                                                                <li>Picture a Resistor of 20 M Ohms in place of the Voltmeter.</li>
+                                                                <li>The Ammeter would measure the current through the Resistor plus the current through the 20M Voltmeter</li>
+                                                            </ol><br>
+                                                            <div align="center">
+                                                                <p>
+                                                                    <img src="image/ohmpr4.png" style="width:300px;height:300px">
+                                
+                                                                </p><br>
+                                                                Figure:6
+                                                            </div><br><br>
+                                                            <b>Circuit I - Difference</b><br><br>
+                                                            <ol>
+                                                                <li>Difference Now if we use a 200 Ohms resistor</li>
+                                                                <li>The Ammeter would measure the current through the Resistor plus the current through the 20M Voltmeter which is “okay” as very less current would flow in the 20M Ohms Resistor.</li>
+                                                            </ol><br>
+                                                            <div align="center">
+                                                                <p>
+                                                                    <img src="image/ohmpr4.png" style="width:300px;height:300px">
+                                
+                                                                </p><br>
+                                                                Figure:7
+                                                            </div><br><br>
+                                                            <b>Circuit I - Difference</b><br><br>
+                                                            <ol>
+                                                                <li>Difference But if we use a 2M Ohms resistor</li>
+                                                                <li>The Ammeter would measure the current through the Resistor plus the current through the 20M Voltmeter which is “incorrect” as 1/10 of the current would flow in the 20M Ohms Resistor.</li>
+                                                            </ol><br>
+                                                            <div align="center">
+                                                                <p>
+                                                                    <img src="image/ohmpr4.png" style="width:300px;height:300px">
+                                
+                                                                </p><br>
+                                                                Figure:8
+                                                            </div><br><br>
+                                                            <b>Circuit - II</b><br><br>
+                                                            <ol>
+                                                                <li>Similarly for the circuit Picture a Resistor of 5K Ohms in place of the Ammeter as its internal Resistance.</li>
+                                                                <li> The Voltmeter now reads a full 20V ( if the DC source is set at that value ) as opposed to say 19.75V.</li>
+                                
+                                                            </ol><br>
+                                                            <div align="center">
+                                                                <p>
+                                                                    <img src="image/ohmpr5.png" style="width:300px;height:300px">
+                                
+                                                                </p><br>
+                                                                Figure:9
+                                                            </div><br><br>
+                                                            <b>Exploratory Experiment</b><br><br>
+                                                            <ol>
+                                                                <li>Setup the circuit as shown. Use the resistor of 100K ohms and a diode.</li>
+                                                                <li>Keep the DC source at a constant Voltage of 5V.</li>
+                                                                <li>Measure the Voltage and Current.</li>
+                                                            </ol><br>
+                                                            <div align="center">
+                                                                <p>
+                                                                    <img src="image/ohmpr6.png" style="width:300px;height:300px">
+                                
+                                                                </p><br>
+                                                                Figure:10
+                                                            </div><br><br>
+                                                            <b>Results</b><br><br>
+                                                            <ol>
+                                                                <li>Decrease the Resistance as 75K, 51K, 24K and 10K Ohms and take the readings. </li>
+                                                                <li>Note that in this case we did not vary the voltage but varied the current by changing the Resistance</li>
+                                                                <li>Plot the V and I values and observe the change is not simply proportional.</li>
+                                                            </ol><br><br>-->
+                            <!--  Slides:&nbsp;<a href="./content/slidepr.html">Ohm's Law</a><br><br>
+                              pdf:&nbsp;<a href="./content/ohmsprc.pdf">Ohm's Law</a>-->
+                            <!--<p>
+                        <object width="900" height="500" data="./content/C004/T002/viewer.swf" type="application/x-shockwave-flash">
+                            <param name="src" value="./content/C004/T002/viewer.swf"/>
+                        </object>
+                    </p>  -->                          
+                        </div>
+                    </section>                   
+                    <!-----------------------------------SECTION - 4--------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-4">
+                        <div class="icon" id="experiment-article-section-4-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/simulation.jpg"></div>
+
+
+                        <div class="heading" id="experiment-article-section-4-heading">
+                            Simulation
+                        </div>
+
+                        <div class="content" id="experiment-article-section-4-content" style="background-color:Gainsboro;position:relative;top:10px;width:500px;height:120px;left:210px;"> 
+                            <h2><marquee style="color:green;font-size:25pt;"> Identification of Unknown Device</marquee></h2>   
+
+                            <input type="button" onclick="randomexp()" target="_blank" value="Identify the Unknown Device" style="position:absolute; top:70px;right:110px;"/>
+ <!--<input type="button" onclick="location.href = './unkwn.html', '_blank');" target="_blank" value="Identify the Unknown Device" style="position:absolute; top:270px;right:110px;"/>--><!--opens in same tab-->
+
+                            <!--  <p>
+                                   <object width="900" height="500" data="./content/C004/T003/viewer.swf" type="application/x-shockwave-flash">
+                                       <param name="src" value="./content/C004/T003/viewer.swf"/>
+                                   </object>
+                               </p> -->                          
+                        </div>
+                    </section>   
+
+
+                    <!-----------------------------------SECTION -5--------------------------------------------------------------------------------->                    
+
+                    <!--     <section id="experiment-article-section-5">
+                             <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab. 
+                    <img src="../images/modules.jpg"></div>
+
+                <div class="heading" id="experiment-article-section-5-heading">
+                    Conclusion
+                </div>
+
+                <div class="content" id="experiment-article-section-5-content">                            
+                    <p style="text-align:justify">Ohm’s law states that voltage is directly proportional to current, provided that the
+                        temperature remains constant. The straight line graph that could be drawn from the data showed the mathematical relationship (
+                        V=I*R) that exists between potential difference and current.
+                        Therefore Ohm’s law was verified.
+                        Moreover, the experiment also demonstrated how the different configurations of resistors, parallel or in a series could play a role in the behavior of the circuit and its components. 
+                        It also concludes that a higher resistance would result in a straight line graph with a higher gradient when potential difference is graphed against current. Therefore a lower resistance would result in a straight line graph with a lower gradient.</p>
+                </div>
+            </section>  -->   
+                    <!-----------------------------------SECTION - 6--------------------------------------------------------------------------------->                    
+
+
+                    <section id="experiment-article-section-6">
+                        <div class="icon" id="experiment-article-section-6-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/quizzes.jpg"></div>
+                        <!-- The heading for the section can be enclosed in a div tag. -->
+
+                        <div class="heading" id="experiment-article-section-6-heading">
+                            Quiz
+                        </div><!-- Write the section content inside a paragraph element, we can also include images with &lt;img&gt; tag -->
+
+                        <div class="content" id="experiment-article-section-6-content">
+                          <!--  <div id="vlab-quiz-wrapper">
+                                <p style="text-align:left; font-size:18px; font-weight:bold;">Test Your Knowledge!!</p><br/>
+                                <div id="vlab-quiz-question-answer-options"></div>
+                                <div id="vlab-quiz-result"></div>
+                                <br/>
+                                <div id="vlab-quiz-trigger">
+                                    <button id="vqt-start" onclick="quizInitialize()" style="display: block;">Start</button>
+                                    <button id="vqt-next" onclick="quizNext()" style="display: none;">Next>></button> 
+                                    <button id="vqt-try-again" onclick="tryAgain()" style="display: none;">Try Again!</button>
+                                </div>            
+                            </div>-->
+                          <div id="vlab-quiz-wrapper">
+                                <p style="text-align:left; font-size:18px; font-weight:bold;">Test Your Knowledge!!</p><br/>
+                                <div id="vlab-quiz-question-answer-options"></div>                                
+                                <br/>
+                                <div id="vlab-quiz-trigger">
+                                    <button id="vqt-start" onclick="quizInitializeAllQuestion()" style="display: block;">Start</button>                                    
+                                </div>            
+                            </div>  
+                        </div>
+                    </section>  
+                    <!------------------------------ SECTION - 7------------------------------------------------>
+
+                    <section id="experiment-article-section-7">
+                        <div class="icon" id="experiment-article-section-7-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/assignment.png"></div>
+
+                        <div class="heading" id="experiment-article-section-7-heading">
+                            Assignment
+                        </div>
+
+                        <div class="content" id="experiment-article-section-7-content">     
+                            <ol>
+                                <li>A 3 volt battery sends a current of 1 ampere through a light bulb. What is the
+                                    resistance of the filament of the bulb? <p style="text-align:right">[Ans:3&#937;]</p> </li><br>
+                                <li>Determine the value of \(R_5\)  and current through it (\(I_{R5}\)), if current through
+                                    branch AB is zero and \(R_1\)=1&#937;,\(R_2\)=1.5 &#937;,\(R_3\)=2&#937;,\(R_4\)=4 &#937;,\(V_S\)=10 V.<p style="text-align:right">[Ans:\(R_5\)=6&#937; and \(I_{R5}\)=0.5 A]</p> </li>
+                                <div align="center">
+                                    <p>
+                                        <img src="image/ohmsassgn1.png" style="width:250px;height:250px">
+                                    </p>
+                                    Figure:1
+                                </div><br>
+                                <li>A 50&#937; resistor is in parallel with 100&#937; resistor. Current in 50&#937;
+                                    resistor is 7.2 A. How will you add a third resistor and what will be its value of the line-current is to
+                                    be its value if the line-current is to be 12.1 amp ?<p style="text-align:right">[Ans:Third resistance must be connected in parallel with 277&#937;]</p> </li><br>
+                                <li>A resistor of 12 &#937; is connected in series with a combination of 15 &#937; and 20 &#937; resistor in parallel.
+                                    When a voltage of 120 V is applied across the whole circuit find the current taken from the supply.<p style="text-align:right">[Ans:5 A ]</p> </li><br>
+                                <li>Three parallel connected resistors when connected across a d.c. voltage source dissipate a total
+                                    power of 72 W. The total current drawn is 6 A, the current flowing through the first resistor is
+                                    3 A and the second and third resistors have equal value. What are the resistances of the three
+                                    resistors ? <p style="text-align:right">[Ans:4&#937;, 8&#937;, 8&#937; ]</p> </li><br>
+                                <li>Calculate the voltage drop across the following electrical loads:
+                                    <ol>
+                                        <li> The bulb that has 2.4 amperes flowing through it. The resistance of the
+                                            bulb is 16 ohms.<p style="text-align:right">[Ans:38.4V]</p></li>
+                                        <li> A coffee grinder that has a resistance of 85 ohms and a current of 1.41
+                                            amperes flowing through it.<p style="text-align:right">[Ans:119.85V]</p></li>
+                                        <li> A current of 0.024 amperes flowing through a resistance of 750 ohms.<p style="text-align:right">[Ans:18V]</p></li>
+                                    </ol>
+                                </li><br>
+                                <li>A resistance of 10 &#937;(\(R_1\)) is connected in series with two resistances each of 15 &#937;(\(R_2\) and \(R_3\))
+                                    arranged in parallel. What resistance(\(R_4\)) must be shunted across
+                                    this parallel combination so that the total current taken shall
+                                    be 1.5 A with 20 V applied ?<p style="text-align:right">[Ans:\(R_4\)=6&#937;]</p>
+                                </li>
+                                <div align="center">
+                                    <p>
+                                        <img src="image/ohmsassgn2.png" style="width:300px;height:250px">
+                                    </p>
+                                    Figure:2
+                                </div><br>
+                                <li>Compute the relative potentials of points A, B, C, D and E which
+                                    point A is grounded. Calculate the voltage drop across resistance \(R_1\)? Does it affect the circuit operation or potential
+                                    difference between any pair of points ?[where, \(R_1\)=6&#937;,\(R_2\)=2 &#937;,\(R_3\)=4&#937;,\(V_{S1}\)=34 V,\(V_{S2}\)=10 V,I=2 A].<p style="text-align:right">[Ans:V=12 V]</p></li>
+                            </ol>  <div align="center">
+                                <p>
+                                    <img src="image/ohmsassgn3.png" style="width:300px;height:250px">
+                                </p>
+                                Figure:3
+                            </div><br>         
+                        </div>
+                    </section>   
+                    <!-----------------------------------SECTION - 8--------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-8">
+                        <div class="icon" id="experiment-article-section-8-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/readings.jpg"></div>
+
+                        <div class="heading" id="experiment-article-section-8-heading">
+                            References
+                        </div>
+
+                        <div class="content" id="experiment-article-section-8-content">                            
+                            <h5>Book:</h5><br>
+                            <ol>
+                                <li>B.L. Theraja, A.K. Theraja-A Textbook of Electrical Technology,Volume 1 Basic Electrical Engineering, S. Chand & Company LTD.,Ram Nagar, New Delhi-110 055</li>
+
+                            </ol><br>
+                            <h5>Video Lecture:</h5><br>
+                            <ol>
+                                <li><a href="http://nptel.ac.in/courses/122106026/2" target="_blank" >NPTEL Note for Ohm's Law </a></li>
+                                <li><a href="http://nptel.ac.in/courses/122106026/3" target="_blank" >NPTEL Note for Resistor Combinations </a></li>
+                            </ol>
+                        </div>
+                    </section>        
+                </div>
+                <footer class="default" id="lab-article-footer">
+                    <!-- Put the content that you want to appear here -->
+                </footer>
+            </article>
+            <footer class="default" id="lab-footer">
+                <div style="margin-left:40%; margin-right:40% ">
+                    Copyright &copy; 2011 Indian Institute of Technology Kharagpur,<a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
+
