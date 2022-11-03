@@ -21,7 +21,7 @@
 
 In the forward-biased and reversed-biased regions, the current (I<sub>f</sub>), and the voltage (V<sub>f</sub>), of a semiconductor diode are related by the diode equation:
 
-$$I_f= I_s(exp^(\frac{v_f}{nV_T})-1)$$
+$$I_f= I_s(exp^\frac{v_f}{nV_T}-1)$$
 
 where,
 I<sub>s</sub> is reverse saturation current or leakage current,
@@ -50,7 +50,7 @@ n is an empirical constant between 0.5 and 2
 [Ans:R5=6Ω and IR5=0.5 A]
 
 <div align="center">
-<img src="images/ohmsassgn1.png" width="10%">
+<img src="images/ohmsassgn1.png" width="30%">
 <p>Figure 1  </p>
 </div>
 
@@ -77,7 +77,7 @@ n is an empirical constant between 0.5 and 2
 [Ans:R4=6Ω]
 
 <div align="center">
-<img src="images/ohmsassgn2.png" width="10%">
+<img src="images/ohmsassgn2.png" width="30%">
 <p>Figure 2  </p>
 </div>
 
@@ -85,6 +85,6 @@ n is an empirical constant between 0.5 and 2
 [Ans:V=12 V]
 
 <div align="center">
-<img src="images/ohmsassgn3.png" width="10%">
+<img src="images/ohmsassgn3.png" width="30%">
 <p>Figure 3  </p>
 </div>

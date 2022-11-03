@@ -47,7 +47,7 @@
 7. Plot the V-I graph and observe the change.
 
 <div align="center">
-<img src="images/ohmsunk3_pr.png" width="40%">
+<img src="images/ohmsunkr_pr.png" width="40%">
 <p>Figure: 3</p>
 </div>
 
