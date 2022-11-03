@@ -90,18 +90,18 @@ n is an empirical constant between 0.5 and 2.
 </div>
 
 
-<input type="number" id="inp1">
-        <input type="number" id="inp2" >
+<input type="number" id="inp1"/>
+        <input type="number" id="inp2"/>
         <p id="sum">Total</p>
-        <button id="button" onclick="answer();"></button>
+        <button id="button" onclick="answer();">Calculate</button>
 
      
 <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>  
-       <script>
+       <script\>
             function answer(){
             var in1=parseInt(document.getElementById("inp1").value);
             var in2=parseInt(document.getElementById("inp2").value);
             var sumt=in1+in2;
             document.getElementById("sum").innerHTML=sumt;
             }
-        </script>
+        </script\>
