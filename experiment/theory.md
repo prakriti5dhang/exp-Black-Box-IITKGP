@@ -33,11 +33,11 @@ $$V_T=\frac{kT}{q}$$
 
 and 
 
-k is Boltzmann’s constant = 1.38x10<sup>−23</sup> J /°Kelvin,
-q is the electronic charge = 1.6x10<sup>−19</sup> joules/volt(Coulombs),
-T is the absolute temperature in °Kelvin(°K = 273 + temperature in °C),
-At room temperature (25 °C), the thermal voltage is about 25.7 mV,
-n is an empirical constant between 0.5 and 2
+k is Boltzmann’s constant = 1.38x10<sup>−23</sup> J /°Kelvin.
+q is the electronic charge = 1.6x10<sup>−19</sup> joules/volt(Coulombs).
+T is the absolute temperature in °Kelvin(°K = 273 + temperature in °C).
+At room temperature (25 °C), the thermal voltage is about 25.7 mV.
+n is an empirical constant between 0.5 and 2.
 
 
 ## Assignments
