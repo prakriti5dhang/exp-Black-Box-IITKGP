@@ -88,3 +88,13 @@ n is an empirical constant between 0.5 and 2.
 <img src="images/ohmsassgn3.png" width="30%">
 <p>Figure 3  </p>
 </div>
+
+
+<input type="number" id="inp1">
+        <input type="number" id="inp2" >
+        <p id="sum">Total</p>
+        <button id="button" onclick="answer();"></button>
+
+     
+
+        <script  src="/simulation/js/random.js"></script>

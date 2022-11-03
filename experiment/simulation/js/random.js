@@ -13,3 +13,11 @@ var link3="unkwn3.html"
         window.open(link3)
     
 } 
+
+
+function answer(){
+    var in1=parseInt(document.getElementById("inp1").value);
+    var in2=parseInt(document.getElementById("inp2").value);
+    var sumt=in1+in2;
+    document.getElementById("sum").innerHTML=sumt;
+    }
