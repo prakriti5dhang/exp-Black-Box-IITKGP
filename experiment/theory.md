@@ -90,3 +90,4 @@ n is an empirical constant between 0.5 and 2.
 </div>
 
 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
